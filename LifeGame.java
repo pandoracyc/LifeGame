@@ -29,7 +29,7 @@ public class LifeGame extends JFrame implements ActionListener {
 	JMenuItem[] mi;
 	JLabel msg;
 	int[][] state;
-	Boolean running = false;
+	volatile Boolean running = false;
 	// 36x9
 	int[][] glidergun =
 	{
